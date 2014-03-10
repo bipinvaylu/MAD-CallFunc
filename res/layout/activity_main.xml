@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Call" />
+
+</LinearLayout>
